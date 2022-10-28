@@ -142,4 +142,17 @@
 
 			});
 
+
+			$('.scrolly').scrolly({
+				speed: 1000,
+				offset: function() {
+	
+					if (breakpoints.active('<=medium'))
+						return $titleBar.height();
+	
+					return 0;
+	
+				}
+			});
+
 })(jQuery);
