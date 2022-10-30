@@ -253,7 +253,7 @@ input, select, textarea {
 	}
 	
 	a#\31 2 {
-		color: #e26c6c;
+		color: #e26c6c !important;
 	}
 	
 	.pass>a {
