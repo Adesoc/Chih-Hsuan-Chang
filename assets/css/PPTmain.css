@@ -105,6 +105,15 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: center, center;
 	}
+	
+	iframe {
+    width: 87%;
+    height: 780px;
+    margin: 0 auto !important;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -3692,7 +3701,7 @@ input, select, textarea {
 			transform: scaleX(-1);
 		}
 
-		.wrapper.alt:after {
+		.wrapper:after {
 			-moz-transform: scaleY(-1) scaleX(-1);
 			-webkit-transform: scaleY(-1) scaleX(-1);
 			-ms-transform: scaleY(-1) scaleX(-1);
